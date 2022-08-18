@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    font-style: italic;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+.article {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+
+.small {
+    width: 25%;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+
+.big {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+.navbox {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    font-size: x-large;
+    font-weight: bold;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+li {
+    list-style-type: none;
+    padding: 5px 0 5px 30px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.politics {
+    background: yellow;
+}
+
+.technology {
+    background: lightblue;
+}
+
+.local {
+    background: aqua;
+}
+
+.opinion {
+    background: blue;
+}
+
+.sports {
+    background: purple;
+}
